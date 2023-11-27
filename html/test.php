@@ -1,14 +1,7 @@
 <!-- <html>
 <body>
 
-<h1>PHPをHTMLに埋め込むテスト</h1>
 
-<?php $num = 0;?>
-<?php while ($num < 10) { ?>
-<h2>現在の数字は：<?php echo $num;?> です。</h2>
-
-<?php ++$num;?>
-<?php } ?>
 </body>
 </html> -->
 
@@ -20,6 +13,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+<h1>PHPをHTMLに埋め込むテスト</h1>
+
+<?php $num = 0;?>
+<?php while ($num < 10) { ?>
+<h2>現在の数字は：<?php echo $num;?> です。</h2>
+
+<?php ++$num;?>
+<?php } ?>
 </body>
 </html>
