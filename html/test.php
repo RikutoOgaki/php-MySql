@@ -1,10 +1,3 @@
-<!-- <html>
-<body>
-
-
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
