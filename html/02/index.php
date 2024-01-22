@@ -1,7 +1,7 @@
 <?php
     // admin/products/index
 
-    require_once __DIR__ . "./utility.php";
+    require_once __DIR__ . "/utility.php";
 
     try {
         // PDO( PHP Database Object )

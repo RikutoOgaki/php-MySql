@@ -2,7 +2,7 @@
 // admin/products/create
 
 // 汎用関数の読み込み
-require_once __DIR__ . "./utility.php";
+require_once __DIR__ . "/utility.php";
 
 // 送られてきたPOSTデータ
 // var_dump( $_POST );
