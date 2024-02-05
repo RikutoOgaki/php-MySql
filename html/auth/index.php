@@ -1,5 +1,5 @@
 <?php
-// admin/products/entry
+
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -14,24 +14,26 @@
 </head>
 <body class="bg-slate-50">
 <div class="container mx-auto">
-    <h1 class="text-2xl">Product - Entry</h1>
-    <ul>
-        <li><a href="products/">作品</a></li>
-    </ul>
-
-    <form action="create.php" method="POST">
+    <h1 class="text-2xl">Auth - New Account</h1>
+    
+    <form action="../user/entry.php" method="POST">
         <div>
-            <label>作品の名前</label>
-            <input type="text" name="product_name">
+            <label>Email.</label>
+            <input type="mail" name="account" placeholder="example@ecc.com">
         </div>
         <div>
-            <labe>作品の説明</labe>
-            <textarea name="product_description"></textarea>
+            <label>Password.</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label>Re Password.</label>
+            <input type="password" name="repassword">
         </div>
         <div>
             <button type="submit">登録</button>
         </div>
     </form>
+
 </div>
 </body>
 </html>
